@@ -28,7 +28,7 @@ variable "function_handler" {
 
 variable "function_timeout" {
   description = "The amount of time your Lambda Function has to run in seconds"
-  default     = 3
+  default     = 4
 }
 
 variable "memory_size" {
